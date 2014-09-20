@@ -16,12 +16,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQP-aQ-S5c">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btV-fE-EMn">
+                                <rect key="frame" x="16" y="20" width="44" height="44"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbv-ey-UCb">
+                                <rect key="frame" x="120" y="20" width="44" height="44"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2y-mz-O2P">
+                                <rect key="frame" x="172" y="20" width="44" height="44"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCM-Kd-oSD">
+                                <rect key="frame" x="68" y="20" width="44" height="44"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQP-aQ-S5c">
+                                <rect key="frame" x="16" y="72" width="80" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="test">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -31,13 +64,28 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="LQP-aQ-S5c" secondAttribute="centerY" id="mav-95-tD7"/>
-                            <constraint firstAttribute="centerX" secondItem="LQP-aQ-S5c" secondAttribute="centerX" id="yir-XE-bzZ"/>
+                            <constraint firstAttribute="centerY" secondItem="Xbv-ey-UCb" secondAttribute="centerY" constant="-44" id="349-Eb-pCy"/>
+                            <constraint firstAttribute="centerX" secondItem="NCM-Kd-oSD" secondAttribute="centerX" constant="-44" id="4hM-vv-j12"/>
+                            <constraint firstAttribute="centerX" secondItem="btV-fE-EMn" secondAttribute="centerX" constant="44" id="K5n-1e-xk6"/>
+                            <constraint firstAttribute="centerY" secondItem="b2y-mz-O2P" secondAttribute="centerY" constant="-44" id="Opn-0g-HB7"/>
+                            <constraint firstAttribute="centerX" secondItem="LQP-aQ-S5c" secondAttribute="centerX" id="VPr-ty-dzQ"/>
+                            <constraint firstAttribute="centerY" secondItem="NCM-Kd-oSD" secondAttribute="centerY" constant="44" id="osd-9R-GKf"/>
+                            <constraint firstAttribute="centerX" secondItem="Xbv-ey-UCb" secondAttribute="centerX" constant="44" id="rUr-oi-a4T"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LQP-aQ-S5c" secondAttribute="bottom" constant="44" id="sqh-8L-T8C"/>
+                            <constraint firstAttribute="centerY" secondItem="btV-fE-EMn" secondAttribute="centerY" constant="44" id="vt8-bo-zrs"/>
+                            <constraint firstAttribute="centerX" secondItem="b2y-mz-O2P" secondAttribute="centerX" constant="-44" id="xDQ-2A-nur"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="xConst" destination="yir-XE-bzZ" id="rMb-VX-uKD"/>
-                        <outlet property="yConst" destination="mav-95-tD7" id="3Di-aL-RTm"/>
+                        <outlet property="btn1" destination="btV-fE-EMn" id="wTO-nE-6fG"/>
+                        <outlet property="btn2" destination="NCM-Kd-oSD" id="Fzn-CF-FW2"/>
+                        <outlet property="btn3" destination="Xbv-ey-UCb" id="lgb-4Q-7Jb"/>
+                        <outlet property="btn4" destination="b2y-mz-O2P" id="Z2A-c1-7v7"/>
+                        <outlet property="btnTest" destination="LQP-aQ-S5c" id="4tb-MI-lkM"/>
+                        <outlet property="constraint1_y" destination="vt8-bo-zrs" id="g2L-rb-BbQ"/>
+                        <outlet property="constraint2_y" destination="osd-9R-GKf" id="jxg-ph-kgh"/>
+                        <outlet property="constraint3_y" destination="349-Eb-pCy" id="zjY-Eo-AMw"/>
+                        <outlet property="constraint4_y" destination="Opn-0g-HB7" id="6KC-d8-I09"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
